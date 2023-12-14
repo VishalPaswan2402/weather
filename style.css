@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#box{
+    height: 520px;
+    width: 400px;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    margin-left: 36.5%;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.heading{
+    font-size: 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: aqua;
+}
+#search{
+    height: 35px;
+    width: 290px;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+#find{
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 145px;
+    margin-top: 10px;
+    font-size: 1.35rem;
+    box-shadow: 3px 3px 5px grey;
+}
+#find:active{
+    box-shadow: none;
+}
+.weatherIcon{
+    width: 150px;
+    margin-top: 20px;
+}
+.font{
+    font-size: 2.5rem;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.weather{
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+.hum{
+    width:60px;
+}
+.text p{
+    font-size: 1.2rem;
+    margin-top: 2px;
+    font-weight: 550;
+}
+.details{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.err{
+    display: none;
+}
+.error{
+    font-size: 1.2rem;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 550;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#foot p{
+    color: aquamarine;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    text-align: center;
+}
+.noValue{
+    display: none;
+}
+.noEntered{
+    font-size: 1.2rem;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 550;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.errorFind{
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-3px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(3px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
